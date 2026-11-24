@@ -1,6 +1,6 @@
 # jolt-admission — weighted budget-permit admission control
 
-Admission control for a jolt control plane: it grants and reclaims Budget
+Admission control for a jolt-based control plane: it grants and reclaims Budget
 Permits ([faraday-contracts](https://github.com/racklr-dev/faraday/blob/main/contracts/SPEC.md)
 §5) against a configured resource budget, so a plane can cap concurrent
 sandbox cost. Each request's cost is weighted per resource and charged against

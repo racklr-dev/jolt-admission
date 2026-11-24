@@ -1,6 +1,6 @@
 ;; jolt-admission: weighted budget-permit admission control.
 (ns jolt.admission
-  "Weighted admission control over a resource budget for the jolt control plane.
+  "Weighted admission control over a resource budget for a jolt-based control plane.
 
   Grants and reclaims Budget Permits (jolt-contracts SPEC.md §5) against a
   configured budget. acquire! is weighted: each request's :cost is multiplied
